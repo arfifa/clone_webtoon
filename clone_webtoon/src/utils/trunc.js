@@ -1,0 +1,1 @@
+export default text => text.length > 15 ? `${text.substr(0, 15)}...` : text;
